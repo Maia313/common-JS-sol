@@ -16,7 +16,7 @@ if (index > -1) {
 ```
 
 ### Native JS
-
+```js
 /*****************NATIVE forEACH*********************/
 
 Array.prototype.myEach = function(callback) {
@@ -154,3 +154,4 @@ var passed = [12, 5, 8, 130, 44].mySome(function(element) {
     return (element >= 100);
 });
 console.log('some: ' + passed); //some: true
+```
