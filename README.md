@@ -25,10 +25,23 @@ function alphabeticalOrder(arr) {
   })
 }
 ```
-#### Sort the elements of an array in ascending order without mutating
+#### `Sort the elements of an array in ascending order without mutating`
 ```js
 function nonMutatingSort(arr) {
   return arr.concat().sort();
+}
+```
+
+#### `Sum All Numbers in a Range`
+```js
+function sumAll(arr) {
+  var max = Math.max(arr[0], arr[1]);
+    var min = Math.min(arr[0], arr[1]);
+    var temp = 0;
+    for (var i=min; i <= max; i++){
+        temp += i;
+    }
+  return(temp);
 }
 ```
 
@@ -148,15 +161,4 @@ function add(x) {
 }
 ```
 
-### `Sum All Numbers in a Range`
-```js
-function sumAll(arr) {
-  var max = Math.max(arr[0], arr[1]);
-    var min = Math.min(arr[0], arr[1]);
-    var temp = 0;
-    for (var i=min; i <= max; i++){
-        temp += i;
-    }
-  return(temp);
-}
-```
+
