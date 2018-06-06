@@ -18,7 +18,6 @@ if (index > -1) {
 
 ```js
 function alphabeticalOrder(arr) {
-  // Add your code below this line
   return arr.sort(function(a,b){
     if (a < b) return -1;
       else if (a > b) return 1;
