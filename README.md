@@ -25,7 +25,7 @@ function alphabeticalOrder(arr) {
   })
 }
 ```
-#### Sort the elements of an array in ascending order
+#### Sort the elements of an array in ascending order without mutating
 ```js
 function nonMutatingSort(arr) {
   return arr.concat().sort();
