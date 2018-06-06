@@ -137,3 +137,13 @@ Here's an example:
     var partialFn = impartial.bind(this, 1, 2);
     partialFn(10); // Returns 13
 ```
+
+```js
+function add(x) {
+  return function(y) {
+    return function(z){
+      return x + y + z;
+    };
+  }
+}
+```
