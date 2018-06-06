@@ -25,6 +25,12 @@ function alphabeticalOrder(arr) {
   })
 }
 ```
+#### Sort the elements of an array in ascending order
+```js
+function nonMutatingSort(arr) {
+  return arr.concat().sort();
+}
+```
 
 ### Native JS
 ```js
