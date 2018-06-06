@@ -25,14 +25,14 @@ function alphabeticalOrder(arr) {
   })
 }
 ```
-#### `Sort the elements of an array in ascending order without mutating`
+##### `Sort the elements of an array in ascending order without mutating`
 ```js
 function nonMutatingSort(arr) {
   return arr.concat().sort();
 }
 ```
 
-#### `Sum All Numbers in a Range`
+##### `Sum All Numbers in a Range`
 ```js
 function sumAll(arr) {
   var max = Math.max(arr[0], arr[1]);
