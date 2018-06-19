@@ -4,7 +4,7 @@
 
 ```js
 //step 1
-// It should have a place to store data. - ex. Array
+// It should have a place to store data. - ex. Array, array within an object 
 
 //step 2
 // It should have a function to display data.  
