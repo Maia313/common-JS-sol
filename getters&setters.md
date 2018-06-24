@@ -10,7 +10,7 @@ let cat = {
 Object.defineProperty(cat, 'fullName', 
 {
   set: function(value){
-      let nameParts = value.split('');
+      let nameParts = value.split(' ');
       this.name.first = nameParts[0];
       this.name.last = nameParts[1];
   }
