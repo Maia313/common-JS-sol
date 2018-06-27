@@ -1,5 +1,5 @@
 
-+ setter:
++ **setter**:
 
 ```js
 let cat = {
@@ -19,7 +19,7 @@ Object.defineProperty(cat, 'fullName',
 console.log(cat.fullName);
 ```
 
-+ getter:
++ **getter**:
 ```js
 let cat = {
     name: {first: 'Fluffy', last: 'LaBeouf'},
