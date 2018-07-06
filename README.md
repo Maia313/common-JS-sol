@@ -1,4 +1,4 @@
-# Common JS solutions
+![Markdown logo](https://img.shields.io/badge/JS-solutions-ff69b4.svg)
 
 `A collection of most common JS problems and their solutions`
 
