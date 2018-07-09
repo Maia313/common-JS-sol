@@ -1,4 +1,4 @@
-## Generate a random number that falls within a range of two specific numbers.
+#### Generate a random number that falls within a range of two specific numbers
 
 ```js
 function randomRange(min, max) {
