@@ -76,6 +76,7 @@ function onlyInFirst(first, second) {
   onlyInFirst(arr2, arr1);
   
   return newArr;
+}
 ```
 
 ### Native JS
