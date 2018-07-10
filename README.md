@@ -40,6 +40,12 @@ function nonMutatingSort(arr) {
   return arr.concat().sort();
 }
 ```
+##### `Return a Sorted Array Without Changing the Original Array`
+```js
+function nonMutatingSort(arr) {
+  return [].concat(arr).sort((a,b)=>a>b);
+}
+```
 
 ##### `Sum All Numbers in a Range`
 ```js
