@@ -102,6 +102,15 @@ Array.prototype.myFilter = function(callback, context) {
     return arr;
 };
 
+Array.prototype.myFilter = function(callback){
+  var newArray = [];
+ 
+  this.forEach(el => callback(el)? newArray.push(el): '');
+
+  return newArray;
+
+};
+
 /*****************NATIVE REDUCE*************************/
 
 
