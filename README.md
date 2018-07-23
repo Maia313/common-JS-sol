@@ -79,6 +79,13 @@ function onlyInFirst(first, second) {
 }
 ```
 
+### Reverse a string
+```js
+function reverseString(str) {
+    return str.split("").reverse().join("");
+}
+```
+
 ### Native JS
 ```js
 
