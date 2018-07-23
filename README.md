@@ -86,6 +86,29 @@ function reverseString(str) {
 }
 ```
 
+### Repeat a string
+```js
+function repeatStringNumTimes(string, times) {
+  var repeatedString = "";
+  while (times > 0) {
+    repeatedString += string;
+    times--;
+  }
+  return repeatedString;
+}
+```
+
+### Confirm the ending of a string
+```js
+function confirmEnding(string, target) {
+  if (string.substr(-target.length) === target) {
+    return true;
+  } else {
+    return false;
+  }
+}
+```
+
 ### Native JS
 ```js
 
