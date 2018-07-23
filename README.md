@@ -109,6 +109,15 @@ function confirmEnding(string, target) {
 }
 ```
 
+### Find the largest number in an array
+```js
+function largestOfFour(mainArray) {
+  return mainArray.map(function(subArray) {
+    return Math.max.apply(null, subArray);
+  });
+}
+```
+
 ### Native JS
 ```js
 
