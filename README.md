@@ -125,6 +125,14 @@ function titleCase(str) {
   }).join(' ');
 }
 ```
+###  Find the longest word in a string
+```js
+function titleCase(str) {
+  return str.toLowerCase().split(' ').map(function(word) {
+    return (word.charAt(0).toUpperCase() + word.slice(1));
+  }).join(' ');
+}
+```
 
 ### Native JS
 ```js
