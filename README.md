@@ -25,10 +25,9 @@ function alphabeticalOrder(arr) {
   })
 }
 ```
-1. If the return value is less than 0, a should come first(have a lower index).
-2. If the return value is greater than 0, b should come first.
-3. If the return value is equal to 0, leave order of a and b unchanged with respect to
-    each other.
+1. If the return value is less than 0, **a** should come first(have a lower index).
+2. If the return value is greater than 0, **b** should come first.
+3. If the return value is equal to 0, leave order of **a and b** unchanged with respect to each other.
 ```js
 products.sort((a, b) => (
       b.votes - a.votes
