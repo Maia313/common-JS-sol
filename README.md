@@ -78,14 +78,14 @@ function onlyInFirst(first, second) {
 }
 ```
 
-### Reverse a string
+##### `Reverse a string`
 ```js
 function reverseString(str) {
     return str.split("").reverse().join("");
 }
 ```
 
-### Repeat a string
+##### `Repeat a string`
 ```js
 function repeatStringNumTimes(string, times) {
   var repeatedString = "";
@@ -97,7 +97,7 @@ function repeatStringNumTimes(string, times) {
 }
 ```
 
-### Confirm the ending of a string
+##### `Confirm the ending of a string`
 ```js
 function confirmEnding(string, target) {
   if (string.substr(-target.length) === target) {
@@ -108,7 +108,7 @@ function confirmEnding(string, target) {
 }
 ```
 
-### Find the largest number in an array
+##### `Find the largest number in an array`
 ```js
 function largestOfFour(mainArray) {
   return mainArray.map(function(subArray) {
