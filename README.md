@@ -116,7 +116,7 @@ function largestOfFour(mainArray) {
   });
 }
 ```
-### Titlecase a sentence
+##### `Titlecase a sentence`
 ```js
 function titleCase(str) {
   return str.toLowerCase().split(' ').map(function(word) {
@@ -124,7 +124,7 @@ function titleCase(str) {
   }).join(' ');
 }
 ```
-###  Find the longest word in a string
+#####  `Find the longest word in a string`
 ```js
 function titleCase(str) {
   return str.toLowerCase().split(' ').map(function(word) {
@@ -133,7 +133,7 @@ function titleCase(str) {
 }
 ```
 
-### Native JS
+##### `Native JS`
 ```js
 
 /*****************NATIVE forEACH*********************/
@@ -207,7 +207,7 @@ Array.prototype.mySome = function(callback, context) {
 };
 
 ```
-### `Currying`
+##### `Currying`
 
 The arity of a function is the number of arguments it requires. `Currying` a function means to convert a function of `N arity` into N functions of arity 1.
 
