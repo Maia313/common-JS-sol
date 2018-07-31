@@ -2,7 +2,7 @@
 
 `A collection of most common JS problems and their solutions`
 
-* ES6 introduces the new method `Array.includes(element)` which is a much cleaner solution than `Array.indexOf(element) > -1`
+* ES6 introduces the new method `Array.includes(element)` which replaces `Array.indexOf(element) > -1`
 
 
 ##### `Remove a particular element from an array` 
