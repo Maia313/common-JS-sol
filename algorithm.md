@@ -9,13 +9,13 @@
 //step 2
 // It should have a function to display data.  
 
-//step 3  CRUD - CREATE
+//step 3  CREATE
 // It should have a function to add data.
 
-//step 4  CRUD - UPDATE
+//step 4  UPDATE
 // It should have a function to edit data.
 
-//step 5  CRUD - DELETE
+//step 5  DELETE
 // It should have a function to remove data.
 
 //step 6  
