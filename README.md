@@ -4,6 +4,16 @@
 
 * ES6 introduces the new method `Array.includes(element)` which replaces `Array.indexOf(element) > -1`
 
+##### `Fix case of first letter` 
+
+```js
+const fixCase = str => {
+  return str.split('').reduce((acc, letter, idx) => {
+    return idx === 0 ? letter.toUpperCase() : `${acc}${letter.toLowerCase()}`
+  }, '')
+}
+
+```
 
 ##### `Remove a particular element from an array` 
 
